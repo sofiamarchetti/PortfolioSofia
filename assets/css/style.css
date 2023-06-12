@@ -1,14 +1,62 @@
 /*Estilos da página index.html*/
-.center{
+.center {
     text-align: center;
 }
 
-.container{
+.container {
     display: flex;
     flex-flow: row;
     justify-content: center;
     align-items: center;
 }
+
+#menu li {
+    display: inline;
+    padding: 30px;    
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #512f45;
+    font-size: 20px;
+}
+
+#menu li a:hover {
+    color: #000000;
+    text-shadow: 0 0 5px var(--cor-sombra-hover);
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.br-50 {
+    border-radius: 50%;
+}
+
+.wh-300 {
+    width: 300px;
+    height: 300px;
+}
+
+/* Define configurações específicas para os links do elemento Nav (menu)
+e para a Classe titulo */
+nav a,
+.titulo {
+    color: var(--cor-fonte-nav);
+    letter-spacing: 3px;
+    font-weight: 800;
+}
+
+/* Define configurações específicas do elemento ul (lista de links) */
+ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+}
+
+
 
 /*Estilos da página contato.html*/
 
@@ -114,18 +162,6 @@ h3 {
     margin-bottom: 2rem;
 }
 
-/* Define configurações específicas para o link */
-a {
-    /* Elimina o sublinhado do link */
-    text-decoration: none;
-}
-
-/* Cria o efeito de sombra ao passar o mouse sobre o link */
-a:hover {
-    /* Insere uma sombra no texto */
-    text-shadow: 0 0 5px var(--cor-sombra-hover);
-}
-
 /* Define configurações específicas para o elemento Nav (menu)*/
 nav {
     margin: 0 auto;
@@ -144,14 +180,7 @@ nav {
     padding: 2.25rem 1.5rem;
 }
 
-/* Define configurações específicas para os links do elemento Nav (menu)
-e para a Classe titulo */
-nav a,
-.titulo {
-    color: var(--cor-fonte-nav);
-    letter-spacing: 3px;
-    font-weight: 800;
-}
+
 
 /* Define configurações específicas a classe logo */
 .logo {
@@ -173,13 +202,7 @@ nav a,
     font-size: 2rem;
 }
 
-/* Define configurações específicas do elemento ul (lista de links) */
-ul {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    list-style: none;
-}
+
 
 /* Define configurações específicas do elemento main */
 main {
