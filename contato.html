@@ -26,17 +26,19 @@
             <h2>Mande uma mensagem:</h2>
             <form>
                 <label for="nome">Nome:</label>
-                <input id="nome" type="text">
-                 
+                <input id="nome" type="text" onkeyup="validaNome()">
+                <div id="txtNome"></div>
+                <br> 
                 <label for="email">Email:</label>
                 <input id="email" type="email">
-        
+                <div id="txtEmail"></div>
+                <br>    
                 <label for="telefone">Telefone:</label>
                 <input type="phone" id="telefone">
-        
+                <br>
                 <label for="assunto">Assunto:</label>
                 <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
-                 
+                <br> 
                 <button id="botaoEnviar">Enviar</button>
             </form>
         </div>
@@ -62,6 +64,6 @@
         <p>Criado por Sofia Marchetti 2023 &copy</p>
     </footer>
 
-    <script src="assets/js/script.js"></script>
+    <script src ="assets/js/script.js"></script>
 </body>
 </html>
