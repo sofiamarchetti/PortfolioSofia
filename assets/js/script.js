@@ -26,3 +26,5 @@ function validaEmail() {
         txt.style.color = "green"
     }
 }
+
+.indexOf
