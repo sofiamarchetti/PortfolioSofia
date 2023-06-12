@@ -1,4 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 /*Estilos da página index.html*/
+.foto {
+    width: 230px;
+    border-radius: 20px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #0a1f00;
+    background-color: #e4ae75;
+}
+
 .center {
     text-align: center;
 }
@@ -12,6 +25,13 @@
     flex-flow: row;
     justify-content: center;
     align-items: center;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
 }
 
 #menu li {
@@ -43,9 +63,17 @@
     height: 300px;
 }
 
-.tm-social {
-    width: 50px;
-    height: 50px;
+.redes_sociais {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.25rem;
+    cursor: pointer;
+}
+
+.icons {
+    width: 3.25rem;
+    padding: 0 0.5rem;
 }
 
 .mb-50 {
@@ -66,8 +94,6 @@ footer {
     background-color: #7d7171;
 }
 
-
-
 /* Define configurações específicas para os links do elemento Nav (menu)
 e para a Classe titulo */
 nav a,
@@ -75,14 +101,6 @@ nav a,
     color: var(--cor-fonte-nav);
     letter-spacing: 3px;
     font-weight: 800;
-}
-
-/* Define configurações específicas do elemento ul (lista de links) */
-ul {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    list-style: none;
 }
 
 
@@ -93,7 +111,11 @@ ul {
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Roboto:wght@100;300;500;700&display=swap');
+
+/*A PARTIR DAQUI É DA LIZA*/
+
+
+
 
 /*Definição das Variáveis do CSS*/
 :root {
@@ -108,10 +130,6 @@ ul {
     --cor-fonte-nav: #FFFFFF;
     --cor-fonte-by: orange;
     --cor-fonte-button-hover: yellow;
-
-    /* Fontes da Página */
-    --lato-roboto: 'lato', Roboto;
-    --lato-cursiva: 'lato', cursive;
 
     /* Cores de Efeito */
     --cor-sombra: #C0C0C0;
@@ -132,19 +150,6 @@ O seletor * aplica para todos os elementos*/
     /* Define a largura e a altura total 
     da tela incluindo as bordas*/
     box-sizing: border-box;
-}
-
-/* Define todas as configurações do Corpo da página */
-body {
-    
-    /* Define a fonte */
-    font-family: var(--lato-cursiva);
-    
-    /* Define a cor da fonte */
-    color: var(--cor-fonte-padrao);
-    
-    /* Define a cor de fundo */
-    background-color: var(--background-page);
 }
 
 /* Define todas as configurações dos Parágrafos da página */
@@ -253,13 +258,6 @@ main {
     margin: 1.75rem;
 }
 
-/* Define configurações específicas da classe foto */
-.foto {
-    width: 230px;
-    border-radius: 20px;
-    box-shadow: 3px 3px 5px var(--gray);
-}
-
 /* Define configurações específicas do elemento section, id meu_video */
 #meu_video {
     margin-bottom: 2rem;
@@ -276,26 +274,6 @@ main {
     margin-bottom: 2rem;
 }
 
-/* Define configurações específicas da classe redes_sociais */
-.redes_sociais {
-    display: flex;
-
-    /* Alinha os elementos em uma única linha */
-    flex-direction: row;
-
-    /* Centraliza os ícones */
-    justify-content: center;
-    gap: 1.25rem;
-
-    /* Define o cursor do Mouse como link (mãozinha) */
-    cursor: pointer;
-}
-
-/* Define configurações específicas da classe icons */
-.icons {
-    width: 3.25rem;
-    padding: 0 0.5rem;
-}
 
 /* Define configurações específicas da classe by */
 .by {
