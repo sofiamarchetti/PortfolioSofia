@@ -39,6 +39,11 @@
     height: 300px;
 }
 
+.tm-social {
+    width: 50px;
+    height: 50px;
+}
+
 /* Define configurações específicas para os links do elemento Nav (menu)
 e para a Classe titulo */
 nav a,
@@ -54,6 +59,21 @@ ul {
     align-items: center;
     gap: 1rem;
     list-style: none;
+}
+
+/* Define configurações específicas do elemento footer */
+footer {
+    width: 80vw;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 0;
+    display: flex;
+
+    /* Alinha os elementos um em cada linha */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-footer);
 }
 
 
@@ -248,20 +268,7 @@ main {
     margin-bottom: 2rem;
 }
 
-/* Define configurações específicas do elemento footer */
-footer {
-    width: 80vw;
-    margin: 0 auto;
-    padding-top: 1rem;
-    padding-bottom: 0;
-    display: flex;
 
-    /* Alinha os elementos um em cada linha */
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--background-footer);
-}
 
 /* Define configurações específicas da classe redes_sociais */
 .redes_sociais {
