@@ -3,6 +3,10 @@
     text-align: center;
 }
 
+.justify {
+    text-align: justify;
+}
+
 .container {
     display: flex;
     flex-flow: row;
@@ -44,6 +48,26 @@
     height: 50px;
 }
 
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+footer {
+    width: 80vw;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 0;
+    display: flex;
+
+    /* Alinha os elementos um em cada linha */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #7d7171;
+}
+
+
+
 /* Define configurações específicas para os links do elemento Nav (menu)
 e para a Classe titulo */
 nav a,
@@ -61,24 +85,12 @@ ul {
     list-style: none;
 }
 
-/* Define configurações específicas do elemento footer */
-footer {
-    width: 80vw;
-    margin: 0 auto;
-    padding-top: 1rem;
-    padding-bottom: 0;
-    display: flex;
-
-    /* Alinha os elementos um em cada linha */
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--background-footer);
-}
-
 
 
 /*Estilos da página contato.html*/
+.ml-50 {
+    margin-left: 50px;
+}
 
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Roboto:wght@100;300;500;700&display=swap');
@@ -200,8 +212,6 @@ nav {
     padding: 2.25rem 1.5rem;
 }
 
-
-
 /* Define configurações específicas a classe logo */
 .logo {
     display: flex;
@@ -221,8 +231,6 @@ nav {
 .titulo {
     font-size: 2rem;
 }
-
-
 
 /* Define configurações específicas do elemento main */
 main {
@@ -267,8 +275,6 @@ main {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
-
-
 
 /* Define configurações específicas da classe redes_sociais */
 .redes_sociais {
